@@ -1,12 +1,9 @@
-// Add an event listener for the submit button
-const submitButton = document.getElementById('submitButton');
-submitButton.addEventListener('click', () => {
-  // Get the input values
-  const viewerFirstName = document.getElementById('input_comp-lnkq57u7').value;
-  const viewerLastName = document.getElementById('input_comp-lnkq648f').value;
+// Select the button by its class name
+var button = document.querySelector('.StylableButton2545352419__root');
 
-  // Call the function to fetch the Typeform URL based on viewer's first name and last name
-  fetchTypeformURL(viewerFirstName, viewerLastName);
+// Add an event listener to respond to the button click event
+button.addEventListener('click', function () {
+  // Your code to handle the button click event here
 });
 
 // Fetch the correct Typeform URL based on the viewer's name
