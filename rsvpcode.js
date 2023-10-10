@@ -12,7 +12,7 @@ submitButton.addEventListener('click', () => {
 // Fetch the correct Typeform URL based on the viewer's name
 function fetchTypeformURL(viewerFirstName, viewerLastName) {
   // Replace with the URL of your public Google Sheet
-  var googleSheetUrl = "https://docs.google.com/spreadsheets/d/1vCJuhUV5EIJ3CdgYkIap_i75_n5EWCxQ5-_O7dn4u1E/gviz/tq?tqx=out:csv";
+  var googleSheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTby9zrPypecSr2QF5jxNJJSholccaao0FgWjWH1wpVoiz6JyOlHBOlLaanr7sd3U7RoFIp7sq1f0HU/pubhtml";
 
   // Make a request to the Google Sheet using fetch
   fetch(googleSheetUrl)
