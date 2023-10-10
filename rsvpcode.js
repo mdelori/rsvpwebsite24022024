@@ -1,8 +1,8 @@
 // Get the viewer's first name from the Wix form
-var viewerFirstName = $w("#First Name").value; // Replace "First Name" with the actual Wix element ID for the first name input
+var viewerFirstName = $w("#input_comp-lnkq57u7").value; // Use the provided element ID for the first name input
 
 // Get the viewer's last name from the Wix form
-var viewerLastName = $w("#Last Name").value; // Replace "Last Name" with the actual Wix element ID for the last name input
+var viewerLastName = $w("#input_comp-lnkq648f").value; // Use the provided element ID for the last name input
 
 // Combine first name and last name (customize this based on your needs)
 var viewerName = viewerFirstName + " " + viewerLastName;
