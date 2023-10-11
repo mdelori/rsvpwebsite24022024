@@ -1,5 +1,5 @@
 // Get the submit button by its ID
-const submitButton = document.getElementById('submitButton');
+const submitButton = document.getElementById('comp-lnku9ixe');
 
 // Add an event listener to the submit button
 submitButton.addEventListener('click', () => {
